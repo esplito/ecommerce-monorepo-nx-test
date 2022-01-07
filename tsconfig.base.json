@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ecommerce-monorepo-nx-test/header": ["libs/header/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

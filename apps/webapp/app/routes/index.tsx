@@ -1,5 +1,6 @@
 import type { MetaFunction, LoaderFunction } from 'remix';
 import { useLoaderData, json, Link } from 'remix';
+import { Header } from '@ecommerce-monorepo-nx-test/header';
 
 type IndexData = {
   resources: Array<{ name: string; url: string }>;
@@ -27,6 +28,10 @@ export let loader: LoaderFunction = () => {
       },
     ],
     demos: [
+      {
+        to: 'product',
+        name: 'Product',
+      },
       {
         to: 'demos/actions',
         name: 'Actions',
@@ -61,6 +66,7 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
+        <Header />
         <h2>Welcome to Remix!</h2>
         <p>We're stoked that you're here. 🥳</p>
         <p>
