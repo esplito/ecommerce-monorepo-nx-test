@@ -1,6 +1,17 @@
+# Ecommerce Monorepo - Nx, Remix, React, Module federation, Storybook, Cypress
 
+The goal of this repo is to showcase very small ecommerce site that:
 
-# EcommerceMonorepoNxTest
+- Contains microfrontends in Remix & React (and uses Webpack 5 Module federation) 🚧
+- Has its own shared design library (with Storybook) 🚧
+- Uses E2E testing with Cypress 🚧
+- Has a workspace where NX is used ✅
+
+The site contains:
+
+- Home page (Remix) 🚧
+- Product pages (Remix) 🚧
+- Cart/Checkout page (React) 🚧
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -78,8 +89,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
 
 ## ☁ Nx Cloud
 
