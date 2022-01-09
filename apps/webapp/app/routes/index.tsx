@@ -29,8 +29,8 @@ export let loader: LoaderFunction = () => {
     ],
     demos: [
       {
-        to: 'product',
-        name: 'Product',
+        to: 'products',
+        name: 'Products',
       },
       {
         to: 'demos/actions',

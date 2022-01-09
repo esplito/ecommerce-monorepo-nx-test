@@ -214,3 +214,12 @@ input:where([type='search']) {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}

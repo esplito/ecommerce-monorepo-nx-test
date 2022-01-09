@@ -1,0 +1,38 @@
+:root {
+  --color-foreground: #fff;
+  --color-background: #143157;
+  --color-links: hsl(214, 73%, 69%);
+  --color-border: #275da8;
+  --font-body: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
+.product-listings {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.product-view {
+  width: 300px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image-holder {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.product-image-holder > img {
+  object-fit: contain;
+}
+
+.product-title {
+  min-height: 85px;
+}
